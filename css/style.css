@@ -1,0 +1,295 @@
+h1 {
+  font-family: "Montserrat-Blck";
+  font-size: 4.5rem;
+  line-height: 1.5
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #fff;
+  color: #000000;
+}
+
+.contaiber-fluid {
+  padding: 1% 10% 1%;
+  background-color: #fcf1f1;
+}
+
+/* Navihation bar */
+.navbar {
+  padding: 0 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Download button */
+.download_button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.logo {
+  width: 90px;
+  height: 75px;
+}
+
+.title-image {
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 1280px) {
+  #title {
+    text-align: left;
+  }
+
+  .title-image {
+    width: 50%;
+    transform: rotate(0deg);
+    position: static;
+  }
+}
+
+/* first_carousel_slids */
+#first_carousel_slids {
+  background-color: #fff;
+  color: #000000;
+}
+
+#first_carousel_slids .carousel-item {
+  padding: 0% 0%;
+}
+
+.slide-txt1 {
+  font-size: 54px;
+  line-height: 1.26em;
+  font-weight: 400;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.slide-txt2 {
+  font-size: 16px;
+  line-height: 1em;
+  color: #fff;
+  margin: 0;
+  letter-spacing: .03em;
+}
+
+@media (max-width: 1023px) {
+  #first_carousel_slids .slide-txt1 {
+    font-size: 40px;
+    line-height: 1.16em;
+  }
+
+  #first_carousel_slids .slide-txt2 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  #first_carousel_slids .slide-txt1 {
+    font-size: 24px;
+  }
+
+  #first_carousel_slids .slide-txt2 {
+    font-size: 12px;
+  }
+}
+
+/* Profile section */
+#profile {
+  padding: 3% 10%;
+  background-color: #fff;
+  color: #000;
+  position: relative;
+}
+
+.profile_container {
+  text-align: justify;
+  padding: 1% 2%
+}
+
+h3 {
+  font-family: "Montserrat-Bold";
+  font-size: 2rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.profile_image {
+  width: 400px;
+  height: 400px;
+  position: relative;
+
+}
+
+/* testimonial */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 5%;
+}
+
+/* Dosha Analysis */
+#dosha_details {
+  padding: 3% 10%;
+  background-color: #fff;
+  color: #000;
+  position: relative;
+}
+
+.dosha_content {
+  text-align: justify;
+  padding: 1% 2%
+}
+
+h3 {
+  font-family: "Montserrat-Bold";
+  font-size: 2rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.dosha_image {
+  width: 400px;
+  height: 400px;
+  position: relative;
+
+}
+
+
+/* Area of expertise*/
+#area_of_expertis {
+  padding: 3% 10%;
+  background-color: #ef8172;
+  color: #000;
+  position: relative;
+}
+
+.dosha_content {
+  text-align: justify;
+  padding: 1% 2%
+}
+
+h3 {
+  font-family: "Montserrat-Bold";
+  font-size: 2rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.dosha_image {
+  width: 400px;
+  height: 400px;
+  position: relative;
+
+}
+
+/* Appointment */
+#appointment {
+  padding: 2% 10%;
+  background-color: #ef8172;
+  color: #fff;
+  position: relative;
+}
+
+.appointment_title{
+  text-align: center;
+  padding: 0 0 2% 0;
+}
+.appointment-cont {
+  text-align: justify;
+  padding: 1% 2%
+}
+
+.patient_details{
+  position: relative;
+}
+
+.from_text{
+  padding: 1px 5% 1px 0
+}
+
+/* press */
+#press {
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing sector */
+#pricing {
+  padding: 6%;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* call to action */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-heding {
+  font-family: "Montserrat black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* footer section*/
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.footer-logo {
+  margin: 20px 10px;
+}
+
+.footer-para {
+  font-size: 00.75rem;
+}
