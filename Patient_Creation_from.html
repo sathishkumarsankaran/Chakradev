@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="The one-stop destination for all your needs for Ayurvedic Consultation & Healing">
+  <meta name="keywords" content="Chakradev Ayurveda, Ayurveda,Ayurvedic Dosha Analysis, Panchakarma, Ayurveda Health Retreat, Ayurvedic Retreat, Ayurveda Retreat, Ayurvedic Healing ">
+
+  <!-- Ayurvedic Healing Village, Healing Village, Ayurveda Health Retreat, Ayurvedic Healing Destination,
+  Health Retreat in Kerala, Ayurveda Treatments in Kerala, Ayurveda Health Retreat, Ayurvedic Retreat, Ayurveda Retreat, Holliday, Hospitality -->
+  <meta name="description" content=" Ayurveda medicine for health is the best option to maintain health and perfect to cure lifestyle disorders, joint pains, skin diseases authentic Ayurveda provided, Ayurveda Medicine For Health," />
+  <meta name="author" content="Chakradev Ayurveda Group">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="" <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>Chakradev Ayurveda</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+  <!-- CSS stylesheet-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  <!-- Custom Scripts -->
+  <!-- Consultation Input validation-->
+  <script>
+    function validateForm() {
+      var x = document.forms["patient"]["fname"].value;
+      if (x == "") {
+        alert("Name must be filled out");
+        return false;
+      }
+      var x = document.forms["patient"]["fmobile"].value;
+      if (x == "") {
+        alert("Mobile Number must be filled out");
+        return false;
+      }
+      var x = document.forms["patient"]["femail"].value;
+      if (x == "") {
+        alert("Email Address must be filled out");
+        return false;
+      }
+    }
+  </script>
+
+
+</head>
+
+<body>
+  <!-- ↓ Title Section ↓ -->
+  <section id="title">
+    <div class="contaiber-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href=""><img src="images/logo.png" alt="Chakrade_Ayurveda_Logo" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">🏡Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="dosha-analysis.html">Dosha Analysis</a></li>
+            <li class="nav-item"><a class="nav-link" href="e-shop.html">E-Shope</a></li>
+            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div />
+  </section>
+  <!-- ↑ Title Section ↑ -->
+  <form class="form-horizontal">
+    <fieldset>
+
+      <!-- Form Name -->
+      <legend>Patient Creation </legend>
+
+      <!-- File Button -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="Photo">Photo</label>
+        <div class="col-md-4">
+          <input id="Photo" name="Photo" class="input-file" type="file">
+        </div>
+      </div>
+
+      <!-- Text input-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="Registration Number ">Registration Number </label>
+        <div class="col-md-4">
+          <input id="Registration Number " name="Registration Number " type="text" placeholder="" class="form-control input-md">
+
+        </div>
+      </div>
+
+      <!-- Text input-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="BHT Number">BHT Number</label>
+        <div class="col-md-4">
+          <input id="BHT Number" name="BHT Number" type="text" placeholder="" class="form-control input-md">
+
+        </div>
+      </div>
+
+      <!-- Select Basic -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="selectbasic">Marriage Status</label>
+        <div class="col-md-4">
+          <select id="selectbasic" name="selectbasic" class="form-control">
+            <option value="1">Married</option>
+            <option value="2">Unmarried</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Text input-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="Patient Name ">Patient Name </label>
+        <div class="col-md-4">
+          <input id="Patient Name " name="Patient Name " type="text" placeholder="" class="form-control input-md">
+
+        </div>
+      </div>
+
+      <!-- Select Basic -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="Patient Status ">Patient Status </label>
+        <div class="col-md-4">
+          <select id="Patient Status " name="Patient Status " class="form-control">
+            <option value="1">Option one</option>
+            <option value="2">Option two</option>
+            <option value="3">Option three</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Text input-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="textinput">Registration Date </label>
+        <div class="col-md-4">
+          <input id="textinput" name="textinput" type="text" placeholder="Registration Date " class="form-control input-md">
+
+        </div>
+      </div>
+
+      <!-- Multiple Radios -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="Gender">Gender</label>
+        <div class="col-md-4">
+          <div class="radio">
+            <label for="Gender-0">
+              <input type="radio" name="Gender" id="Gender-0" value="1" checked="checked">
+              Option one
+            </label>
+          </div>
+          <div class="radio">
+            <label for="Gender-1">
+              <input type="radio" name="Gender" id="Gender-1" value="2">
+              Option two
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Text input-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="Date of Birth">Date of Birth</label>
+        <div class="col-md-4">
+          <input id="Date of Birth" name="Date of Birth" type="text" placeholder="" class="form-control input-md">
+
+        </div>
+      </div>
+
+      <!-- Text input-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="NIC">NIC</label>
+        <div class="col-md-4">
+          <input id="NIC" name="NIC" type="text" placeholder="" class="form-control input-md">
+
+        </div>
+      </div>
+
+      <!-- Text input-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="Relation">Relation</label>
+        <div class="col-md-4">
+          <input id="Relation" name="Relation" type="text" placeholder="" class="form-control input-md">
+
+        </div>
+      </div>
+
+      <!-- Text input-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="Guardian">Guardian</label>
+        <div class="col-md-4">
+          <input id="Guardian" name="Guardian" type="text" placeholder="" class="form-control input-md">
+
+        </div>
+      </div>
+
+      <!-- Text input-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="Contact Number">Contact Number</label>
+        <div class="col-md-4">
+          <input id="Contact Number" name="Contact Number" type="text" placeholder="" class="form-control input-md">
+
+        </div>
+      </div>
+
+      <!-- Textarea -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="Address">Address</label>
+        <div class="col-md-4">
+          <textarea class="form-control" id="Address" name="Address"></textarea>
+        </div>
+      </div>
+
+      <!-- Button -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="Save"></label>
+        <div class="col-md-4">
+          <button id="Save" name="Save" class="btn btn-success">Save</button>
+        </div>
+      </div>
+
+    </fieldset>
+  </form>
+
+
+</body>
+
+</html>

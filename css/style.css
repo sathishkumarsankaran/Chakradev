@@ -133,7 +133,6 @@ p {
   width: 400px;
   height: 400px;
   position: relative;
-
 }
 
 /* testimonial */
@@ -185,9 +184,7 @@ p {
   width: 400px;
   height: 400px;
   position: relative;
-
 }
-
 
 /* Area of expertise*/
 #area_of_expertis {
@@ -215,7 +212,6 @@ p {
   width: 400px;
   height: 400px;
   position: relative;
-
 }
 
 /* Appointment */
@@ -226,21 +222,26 @@ p {
   position: relative;
 }
 
-.appointment_title{
+.appointment_title {
   text-align: center;
   padding: 0 0 2% 0;
 }
+
 .appointment-cont {
   text-align: justify;
   padding: 1% 2%
 }
 
-.patient_details{
+.patient_details {
   position: relative;
 }
 
-.from_text{
+.from_text {
   padding: 1px 5% 1px 0
+}
+
+.appointment_text {
+  color: #fff;
 }
 
 /* press */
